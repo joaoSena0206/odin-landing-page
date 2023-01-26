@@ -1,0 +1,51 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header-hero
+{
+    background-color: #1F2937;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.heroSec-headerLink
+{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    height: 10vh;
+}
+
+header div
+{
+    display: flex;
+}
+
+header h2
+{
+    color: #F9FAF8;
+}
+
+header a
+{
+    text-decoration: none;
+    margin-right: 30px;
+    font-size: inherit;
+    color: inherit;
+}
+
+header a:last-of-type
+{
+    margin-right: 0;
+}
