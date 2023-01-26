@@ -49,3 +49,53 @@ header a:last-of-type
 {
     margin-right: 0;
 }
+
+
+#hero-section
+{
+    display: flex;
+    height: 90vh;
+    justify-content: space-between;
+}
+
+#heroMain
+{
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+#hero-section button
+{
+    background-color: #3882F6;
+    font-size: 18px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 15px;
+}
+
+#hero-section div:first-of-type
+{
+    align-self: center;
+}
+
+#hero-section div:last-of-type
+{
+    background-color: gray;
+    color: #E5E7EB;
+}
+
+#heroImg
+{
+    width: 50%;
+    height: 245px;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
