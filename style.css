@@ -19,6 +19,21 @@
     color: #E5E7EB;
 }
 
+.square
+{
+    border: solid #3882F6;
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.div-square
+{
+    width: 300px;
+}
+
+
 header
 {
     display: flex;
@@ -98,4 +113,36 @@ header a:last-of-type
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#informationHeader
+{
+    height: 100vh;
+    padding-left: 16%;
+    padding-right: 16%;
+    padding-bottom: 30vh;
+    padding-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#informationHeaderText
+{
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    text-align: center;
+    justify-self: start;
+}
+
+#informationHeader-div
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.div-square p
+{
+    text-align: center;
 }
