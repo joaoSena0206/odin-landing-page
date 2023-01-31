@@ -33,6 +33,32 @@
     width: 300px;
 }
 
+.btn
+{
+    background-color: #3882F6;
+    font-size: 18px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 15px;
+}
+
+.quoteDiv1
+{
+    background-color: #3882F6;
+    color: white;
+    padding: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
 
 header
 {
@@ -80,7 +106,7 @@ header a:last-of-type
     color: #F9FAF8;
 }
 
-#hero-section button
+.button
 {
     background-color: #3882F6;
     font-size: 18px;
@@ -170,3 +196,23 @@ header a:last-of-type
     font-size: 18px;
     text-align: right;
 }
+
+section:last-of-type
+{
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+section:last-of-type div p:first-child
+{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+section:last-of-type div button
+{
+    border: solid 2px;
+}
+
