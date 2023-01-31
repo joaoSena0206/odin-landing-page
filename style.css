@@ -47,7 +47,7 @@
     margin-top: 15px;
 }
 
-.quoteDiv1
+.actionDiv1
 {
     background-color: #3882F6;
     color: white;
@@ -216,3 +216,13 @@ section:last-of-type div button
     border: solid 2px;
 }
 
+
+footer
+{
+    background-color: #1F2937;
+    color: white;
+    font-size: 16px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
